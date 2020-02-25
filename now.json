@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/sign-up",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/info",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/set-plan",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/login",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/reset",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/add",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/home",
+      "dest": "/index.js",
+      "methods": ["POST"]
+    }
+  ]
+}
