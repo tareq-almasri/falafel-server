@@ -10,7 +10,7 @@
   "author": "Tareq",
   "license": "DCI",
   "dependencies": {
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "concurrently": "^5.0.2",
     "crypto": "^1.0.1",
     "dotenv": "^8.2.0",
