@@ -48,7 +48,7 @@ app.post("/sign-up", (req, res) => {
         res.status(400).send({
           error: "username already exists",
         });
-      }else{
+      }if(!user) {
         res.send({
           msg: "username does not exist, you can proceed",
         });
